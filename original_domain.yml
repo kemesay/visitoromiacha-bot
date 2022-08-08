@@ -1,0 +1,137 @@
+version: '3.1'
+intents:
+- greet
+- location_request
+- abajifar
+- direction_bale_mountains
+- direction_sof_omar
+- direction_sheikh_hussein
+- direction_wenchi
+- tourism_type
+- goodbye
+- bot_challenge
+- wenchi_in_detail
+- wimage
+- wvideo
+- request_form
+- FirstName
+- LastName
+- Feedback
+- request_details
+- affirm
+- deny
+entities:
+- pictures
+- video
+- wenchi_in_detail
+- firstN
+- lastN
+- feedback
+slots:
+  wenchi_in_detail:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: wenchi_in_detail
+  pictures:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: pictures
+  video:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: video
+  firstN:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: firstN
+  lastN:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: lastN
+  feedback:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: feedback
+forms:
+  form_info:
+    ignored_intents:
+    - greet
+    - location_request
+    - abajifar
+    - direction_bale_mountains
+    - direction_sof_omar
+    - direction_sheikh_hussein
+    - direction_wenchi
+    - tourism_type
+    - goodbye
+    - bot_challenge
+    - wenchi_in_detail
+    - wimage
+    - wvideo
+    required_slots:
+    - firstN
+    - lastN
+    - feedback
+responses:
+  utter_greet:
+  - text: Hey! How are you? anaa dhufu maal si gargaaru
+  utter_location_request:
+  - text: "Oromia tourism destination can be classified into six main route: 1. The Central Tourist Route  2. The South Eastern Route 3. The Southern Tourist Route 4. The South Western Route 5. The Eastern Tourist Route 6. The Western Tourist Route from these main center you can visit well known places, like Culture and Lifestyle, Two Culture and Lifestyle abajifar, Bale mountains, Sof Omar or sofumar,Sheikh Hussein, Wenchi or wonchi (wancii) and others. If you want I can give you the detailed information you need to know, so you can ask me the specific location you want to visit. would you prefer more information on website? ok, if so\nHere is our [website](http://www.visitoromia.org) or [otc_link](http://www.oromiatourismcommission.et)"
+  utter_abajifar:
+  - text: Aba Jifar Palace is the most important heritage site in the Oromia Region of Ethiopia, and a symbol of Oromia cultural identity. Located on the outskirts of the city of Jimma, the capital of the region, the current Palace was built by King Aba Jifar II in the 1880s on a site located seven kilometers north of Jimma and chosen by the King's father.
+  utter_bale_mountains:
+  - text: " Bale Mountains National Park is in Oromia Region National State, 400 kilometers southeast of Addis Ababa and 150 kilometers east of Shashamene. Five woredas make up the BMNP boundary. These are Adaba or west, Dinsho or north, Goba or northeast, Delo-Mena-Angetu, and Harena-Buluk (southeast).The Bale Mountains are part of the Bale-Arsi massif which runs through the western part of Ethiopia's Highlands.The mountains have been glaciated at least twice throughout their history, and they were glaciated as recently as 2,000 years ago. There are certain geological features that remain an enigma to geologists and glaciologists such as the striations that appear on shallow hillsides on the Sanetti Plateau. By attracting enormous volumes of orographic rainfall,the Bale Mountains play an important role in climate regulation in the region, Over 12 million people from Kenya, Somalia, and Ethiopia rely on water from the Bale massif. Temperatures vary wide the park is divided into five distinct and unique habitats."
+  utter_sof_omar:
+  - text: "Sof Omar Caves is Ethiopia's longest cave, measuring 15.1 kilometers or 9.4 miles in length. It was the longest cave in Africa when it was examined in 1972. The Weyib River (Gestro River) flows through it, and it is located east of Robe in the Bale Zone of the Oromia Region in southeastern Ethiopia.It dives at the  Ayiew Maco entrance and resurfaces 1 kilometer (0.62 mi) distant at the Holuca resurgence. Sof Omar was the name of a Muslim holy man who resided in the area. Local names for 'name' and cave, respectively, are Maco and Holuca. It has always been a religious center, revered to both Islam and the Oromo traditional religion. The caves, particularly the Chamber of Columns, are noted for their numerous pillars. n 1894, the explorer Arthur Donaldson Smith documented his expedition to the cave. In 1913, an Italian expedition also paid a visit. Henri Breuil undertook archaeological research in the area in 1934. The cave was almost certainly explored by Italians. "
+  utter_sheikh_hussein:
+  - text: "The town is named after what some Ethiopian Muslims consider to be the country's most hallowed site the grave of Sheikh Hussein, a thirteenth-century Somali saint from Merca who preached Islam to the Sidamo people living in the area at the time. He is also credited with building and founding the Sultanate of Bale, as well as performing other miracles. A number of these miracles were documented in Rabi' al-Qulub, a hagiography published in Cairo in the 1920s. Despite the fact that this town is now within the Oromo homelands, it continues to be the destination of around 50,000 Muslim Ethiopian pilgrims twice a year during the Muslim months of Hajj and Rabi' al-Awwal. The first pilgrimage commemorates his birth, while the second commemorates his death. They traditionally carry Oulle Sheikh Hussein cleft sticks, which are too little to function as walking sticks and aren't used for anything else. When the visitors arrive at the shrine, they take turns crawling through a narrow entryway to enter the saint's tomb. The village and the neighboring Kachamsare valley are part of a large religious complex dedicated to the saint. Emir 'Abd al-Shakur ibn Yusuf of Harar built a shrine to the Baghdadi saint 'Abd al-Qadir al-Jilani near Sheikh Hussein's tomb inside the shrine enclosure in the 18th century. As part of the project, a cemetery has been dedicated. Other notable features of the compound include the Dinkiro pond, built in dry stone masonry 300 meters south of the mosque, and a spring with miraculous water. "
+  utter_wenchi:
+  - text: 'Crater Lake Wanchi Crater Lake: Wanchi is the picturesque lake situated about 32kilometers south west of Ambo on the road to Woliso nearly half way between the two towns. Coming from Ambo or from Woliso to Wanchi Crater Lake the gravel road ascends mountain slopes almost to the rim of the crater where the height reaches 3386m at a peak. Here green oasis, (when compared to surrounding area) comes to view. Touristic appeal of the crater mainly stem from its fantastic beauty.'
+    buttons:
+    - title: In detail
+      payload: /wenchi_in_detail
+    - title: In picture
+      payload: /wimage
+    - title: In video
+      payload: /wvideo
+  utter_wenchi_in_detail:
+  - text: " Standing on the rim of the crater you will be watching unique shaped and crystal clear water lying in deep basin and circular slops covered with greenery alpine vegetation that largely contributed for its dramatic scenery. In addition to these, when you see the village on peninsula, the small island with monastery, the houses and gardens on the lake side it seems that crater not to be touched by modern world. The Crater Lake is endowed with forest of more than 15 major tree species and much other alpine type vegetation, many aquatic and terrestrial bird species and some mammals, of which colobus monkey frequently seen. In the hot spring valley, one can observe natural offers like hot and cold mineral springs (being used by local people for cure of illness): the waterfall gushing out just from the foot of the hill and many other eyecatching scenes. Wanchi Crater Lake is an ideal site, and has a good appeal to such tourist activities and recreations like hiking, boating/canoeing, horseback riding, sailing, paragliding, relaxing, forest exploring, spa bathing and many other eco-tourism oriented activities. Some of these activities are already made operational by Wanchi eco tourism society that composed of local community associations and private investor. Scenes Around Lake Wench' W01 1. 1S0 Woliso: Driving forward on the gravel road which brought us to lake Wanchi, we arrive at Woliso town on the main asphalt road linking Finfinnee with Jima. Situated at about 116 kilometers south west of Finfinnee, Woliso boasts natural hot spring that serve recreational and curativ purposes. The compound of Negash Lodge (former Ethiopia Hotel) in Woliso is especially the ideal place where recreational facilities integrated into natural resources, The lodge thus offers neatly and beautifully built:- swimming pool, spa bath houses, lodging services, cultural cottages and fyH natural forests harboring gureza, monkey and birds of various type."
+  utter_goodbye:
+  - text: Good bye. Thank you for asking me.
+  utter_iamabot:
+  - text: I am Oromia tourism commission ChatBot powered by OTC to guide tours, I can give you all the information you need to visit Oromia.
+  utter_pictures:
+  - text: Here is the [picture link](https://drive.google.com/drive/folders/1FhALBsD4pyVlhGETxHVHwMuZQXckVyKB) I have invite you for recreation
+  utter_video:
+  - text: Here is the [video link](https://drive.google.com/drive/folders/1K-JdpP9h61Hg9jy8ULO-teZJrW-27CH7) I have invite you for recreation
+  utter_tourism_type:
+  - text: ' Oromia is covered with landscape, paleotological, archeological, historical and living cultural tourism attractions. Based on the attractions diverse types of tourism including: Living culture tourism, History tourism, Archeology tourism, Paleontology tourism, Park tourism, geotourism, Agro-biodiversity and Coffee tourism, Rural tourism, Conference tourism, Sport tourism are the common tourism forms in the country.'
+  utter_ask_firstN:
+  - text: Please provide your first name.
+  utter_ask_lastN:
+  - text: Please provide your last name.
+  utter_ask_feedback:
+  - text: Please provide your feedback.
+  utter_submit:
+  - text: "These are the values that you provided say yes or no to confirm:\n First\\ name: {firstN}\n Last Name: {lastN}\n Feedback: {feedback}"
+    buttons:
+    - title: yes
+      payload: /affirm
+    - title: no
+      payload: /deny
+  utter_thanks:
+  - text: Thanks for your valuable time
+actions:
+- action_last_name
+- action_feedback
+- action_submit
+- utter_thanks
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

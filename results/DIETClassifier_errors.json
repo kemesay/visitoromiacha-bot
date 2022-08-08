@@ -1,0 +1,14 @@
+[
+  {
+    "text": "can i get wenchi",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "wenchi",
+        "entity": "wenchi_in_detail"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
