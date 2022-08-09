@@ -3,8 +3,8 @@ command: bash
 values: 
 - /root/.cache/pip
 sync:
- - .:/app
- forward:
- - 5005:5005
- reverse:
- - 8000:8000
+- .:/app
+forward:
+- 5005:5005
+reverse:
+- 8000:8000
