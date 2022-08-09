@@ -29,9 +29,12 @@ intents:
   - Pinterest
 
   - covid
-  - Language_setting
+ # - Language_setting
   - life_chat
   - gallery
+  - image_gallery
+  - video_gallery
+
 
   - Destinations
   - centralTR
@@ -285,8 +288,8 @@ responses:
       title: Connect With Agent
     # - payload: /request_form
     #   title: Feedback 
-    - payload: /Language_setting   
-      title: Change Language
+    #- payload: /Language_setting   
+      #title: Change Language
     - payload: /gallery
       title: Gallery
     button_type: vertical
@@ -317,20 +320,6 @@ responses:
             stemming from its sheer length still being carved by the Weyib river and etc.
             Visit Oromia has many main components. These are as shown below"
       buttons:
-      # custom:
-      # #- title: "Destinations"
-      #   payload: visitoromia
-      #   data:
-      #   - label: "Destinations"
-      #     value: "/Destinations"
-      #   - label: "Categories"
-      #     value: "/categories"
-      #   - label: "Activities"
-      #     value: "/activities"
-      #   - label: "Tour Guide and Operators "
-      #     value: "/tour_opertaor"
-      #   - label: "Social Midea"
-      #     value: "/social_media"
       - title: "Destinations"
         payload: "/Destinations"
       - title: "Categories"
@@ -833,6 +822,17 @@ responses:
     - text: "I am [live chat](https://chatting.page/5x9f8ujwxrtemvzzvynqzu0rr0gnvfgp)"
   utter_gallery:
     - text: "This part contain the collections of videos and images of different destinations"
+      buttons:
+      - title: "Pictures "
+        payload: "/image_gallery"
+      - title: "Videos"
+        payload: "/video_gallery"
+
+  utter_gallery_pictures:
+   - text: "This is multiple pictures of visit oromia"
+
+  utter_gallery_videos:
+   - text: "This is multiple videos of visit oromia"
 
       
 ##################################################################################
@@ -2811,8 +2811,8 @@ actions:
 - dhati_walal_parkaction_exercise
 - keto_water_fallaction_exercise
 - walal_shabalaction_exercise
-- galleryaction_exercise
-- langsetting_exercise
+- gallery_videos_action_exercise
+- gallery_images_action_exercise
 
 
 # - action_handoff

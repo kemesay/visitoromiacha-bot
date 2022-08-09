@@ -117,13 +117,39 @@ nlu:
    - video
    - videos
    - what are the videos of visit oromia
-   - photos
+   - photos and image
    - images
    - image
    - visit oromia
    - oromia visit
    - help me with video and photo
    - help me with videos and image
+
+
+- intent: image_gallery
+  examples: |
+   - what is the list oy image
+   - image list
+   - images
+   - picture
+   - pictures
+   - photos
+   - image
+   - pictires of visit oromia
+   - help me with photo
+   - help me with image
+
+- intent: video_gallery
+  examples: |
+   - what is the video of visit oromia
+   - what is video
+   - video
+   - videos
+   - visit oromia video
+   - help me with video
+   - help me with videos
+
+
 # - intent: tour_opertaor
 #   examples: | 
 #    - how can get tour operators
@@ -487,75 +513,75 @@ nlu:
    - list criteria of care covid_19 information in ethiopia
 
 #######################################################################################################
-#  language setting 
-- intent: Language_setting
-  examples: | 
-   - I want to change language
-   - how to change language
-   - tell me  how to change language
-   - this bot support different language
+# #  language setting 
+# - intent: Language_setting
+#   examples: | 
+#    - I want to change language
+#    - how to change language
+#    - tell me  how to change language
+#    - this bot support different language
 
-- intent: English
-  examples: | 
-   - I want English
-   - I want English language
-   - English
-   - language English
-   - this bot support English language
+# - intent: English
+#   examples: | 
+#    - I want English
+#    - I want English language
+#    - English
+#    - language English
+#    - this bot support English language
 
-- intent: Amaharic
-  examples: | 
-   - I want Amaharic 
-   - I want Ameregna
-   - I want Amaharic
-   - Amaharic
-   - language Amaharic
-   - this bot support Amaharic language
+# - intent: Amaharic
+#   examples: | 
+#    - I want Amaharic 
+#    - I want Ameregna
+#    - I want Amaharic
+#    - Amaharic
+#    - language Amaharic
+#    - this bot support Amaharic language
 
-- intent: Afaan_Oromo
-  examples: | 
-   - I want Afaan oromo 
-   - I want oromo language
-   - I want aforomo
-   - Afaan oromo
-   - language afaan oromo 
-   - this bot support Afaan oromo language
+# - intent: Afaan_Oromo
+#   examples: | 
+#    - I want Afaan oromo 
+#    - I want oromo language
+#    - I want aforomo
+#    - Afaan oromo
+#    - language afaan oromo 
+#    - this bot support Afaan oromo language
 
-- intent: chinese
-  examples: | 
-   - I want chinese 
-   - I want chinese language
-   - chinese
-   - language chinese
-   - chinese language 
-   - this bot support chinese language
+# - intent: chinese
+#   examples: | 
+#    - I want chinese 
+#    - I want chinese language
+#    - chinese
+#    - language chinese
+#    - chinese language 
+#    - this bot support chinese language
   
-- intent: Russian_Tatar
-  examples: | 
-   - I want Tatar 
-   - I want Tatar language
-   - Tatar
-   - language Tatar
-   - Tatar language 
-   - this bot support Tatar language
+# - intent: Russian_Tatar
+#   examples: | 
+#    - I want Tatar 
+#    - I want Tatar language
+#    - Tatar
+#    - language Tatar
+#    - Tatar language 
+#    - this bot support Tatar language
   
-- intent: japanese
-  examples: | 
-   - I want japanese 
-   - I want japanese language
-   - japanese
-   - language japanese
-   - japanese language 
-   - this bot support japanese language
+# - intent: japanese
+#   examples: | 
+#    - I want japanese 
+#    - I want japanese language
+#    - japanese
+#    - language japanese
+#    - japanese language 
+#    - this bot support japanese language
 
-- intent: hangugeo
-  examples: | 
-   - I want hangugeo 
-   - I want hangugeo language
-   - hangugeo
-   - language hangugeo
-   - hangugeo language 
-   - this bot support hangugeo language
+# - intent: hangugeo
+#   examples: | 
+#    - I want hangugeo 
+#    - I want hangugeo language
+#    - hangugeo
+#    - language hangugeo
+#    - hangugeo language 
+#    - this bot support hangugeo language
 
 #######################################################################################################
 # life chat

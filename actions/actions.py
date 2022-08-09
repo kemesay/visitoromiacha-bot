@@ -33,20 +33,7 @@ import webbrowser
 #  if bot.get_updates():
 #     chat_id = bot.get_updates()(-1).message.chat_id
 #     video = 'https://youtu.be/kBRkY5EUzZw'
-#     bot.send_video(chat_id, video)
-
-
-
-
-
-
-
-
-
-
-
-
-    
+#     bot.send_video(chat_id, video)    
 # class ActionFirstName(Action):
 #           def name(self) -> Text: 
 #                              """Unique identifier of the form"""
@@ -129,7 +116,6 @@ class Actionoda(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Oda_Nabe_ji8BqOX.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -141,13 +127,10 @@ class Actionctuma(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
         dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Cafe_Tuma.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Cafe_Tuma.jpg")  
         return []
     
 class Actionbtown(Action):
@@ -163,7 +146,6 @@ class Actionbtown(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Bishoftu.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -180,7 +162,6 @@ class Actionlakeharsade(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Hora_Harsade.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
 
@@ -214,7 +195,6 @@ class Actionlbabogaya(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Babogaya.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
 
@@ -231,7 +211,6 @@ class Actionlakekuriftu(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
 
@@ -248,7 +227,6 @@ class ActionLkilole(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Kilole.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -282,7 +260,6 @@ class Actionlmzuqala(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
 
@@ -297,13 +274,9 @@ class Actionlmyarar(Action):
    
         dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Mountain_Yarar.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
-    
-    
     
     
 class Actionadama(Action):
@@ -319,7 +292,6 @@ class Actionadama(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []  
 
@@ -336,7 +308,6 @@ class Actionoromomartyr(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []  
     
@@ -353,7 +324,6 @@ class Actiongarhotspring(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -370,7 +340,6 @@ class Actionboku(Action):
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
         
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -417,9 +386,6 @@ class Actiondambal(Action):
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=we4areB_wQA")
    
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
@@ -538,10 +504,7 @@ class Actionambo(Action):
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=N4WLHdqMTt8")
         dispatcher.utter_message(attachment= "https://www.youtube.com/watch?v=yCfpGnaFwPA")
-        
-        
         dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
@@ -641,11 +604,6 @@ class Actionguha_tsion_mariam(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -658,11 +616,6 @@ class Actionsankalle_wild(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -675,11 +628,6 @@ class Actionforest_scenery(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -692,11 +640,6 @@ class Actionmee_boko(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -710,11 +653,6 @@ class Actionaround_borana(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -727,11 +665,6 @@ class Actiontown_mega_yabelo(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -744,11 +677,6 @@ class Actionbokes(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -761,11 +689,6 @@ class Actiongalana_abaya(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -778,11 +701,6 @@ class Actionwallame_hot_spring(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -795,11 +713,6 @@ class Actiongibe_gorge(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -812,11 +725,6 @@ class Actionjimma(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -829,11 +737,6 @@ class Actionaba_jifar_palace(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -846,11 +749,6 @@ class Actiontropical_forest_jimma_illuababora(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -863,11 +761,6 @@ class Actionfalls_around_jimma_Hu(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -880,11 +773,6 @@ class Actionsor_water_fall(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -897,11 +785,6 @@ class Actiongore_town(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -914,11 +797,6 @@ class Actionmuseums_arsi_asala(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -931,11 +809,6 @@ class Actionanole_martyr_monument(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -948,11 +821,6 @@ class Actionarsi_mountains_national_park(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -965,11 +833,6 @@ class Actiondodola_adaba_forest(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -982,11 +845,6 @@ class Actionbale_moountains_national_park(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -999,11 +857,6 @@ class Actionsanate(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1016,11 +869,6 @@ class Actionmada_walabu(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1033,11 +881,6 @@ class Actionsof_umar_cafe(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1049,12 +892,6 @@ class Actiondire_sheikh_hussein(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1067,11 +904,6 @@ class Actionwabe_gorge(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1084,11 +916,6 @@ class Actionasabo_mountains_monestrye(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1101,11 +928,6 @@ class Actionjalo_kunni_mukhtar_forest(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1118,11 +940,6 @@ class Actionoda_bultum(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1135,11 +952,6 @@ class Actionburka_kobtu_sama_hot_spring(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1152,11 +964,6 @@ class ActionChororapithecus(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1169,11 +976,6 @@ class Actionharala_ruins(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1186,11 +988,6 @@ class Actiondindin_forest(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1203,11 +1000,6 @@ class Actionchalanko_oromo_martyr_memorial_monumentt(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1220,11 +1012,6 @@ class Actiondire_dawa(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1237,11 +1024,6 @@ class Actionbabile_elephant_sanctuary(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1254,11 +1036,6 @@ class Actionunique_rock_formation_babile(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1271,11 +1048,6 @@ class Actionmountain_kundudo(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1288,11 +1060,6 @@ class Actiondima_cave(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
@@ -1306,12 +1073,6 @@ class Actionoromo_cave(Action):
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
    
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
         return []
     
 class Actionhistorical_mosques(Action):
@@ -1322,12 +1083,6 @@ class Actionhistorical_mosques(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -1340,11 +1095,6 @@ class Actionoda_buluk_gada_site(Action):
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
    
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -1356,12 +1106,6 @@ class Actionfincha_dam(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -1374,11 +1118,6 @@ class Actionbareda_angar_water_fall(Action):
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
    
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -1390,12 +1129,6 @@ class Actiondhati_walal_park(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -1408,11 +1141,6 @@ class Actionketo_water_fall(Action):
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
    
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
   
         return []
     
@@ -1425,145 +1153,76 @@ class Actionwalal_shabal(Action):
         dispatcher.utter_message("wait... Loading images and Video")
         dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
    
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
+        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")        
   
         return []
     
-class Actiongallery(Action):
+class Actiongalleryimage(Action):
          
     def name(self) -> Text:
-        return "galleryaction_exercise"
+        return "gallery_images_action_exercise"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
-        dispatcher.utter_message("wait... Loading images and Video")
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
+        dispatcher.utter_message("wait... Loading images")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Hora_Harsade.jpg") 
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/2_fLUMPXw.png") 
+
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Kilole.jpg") 
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-        
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=HtGAJyMfago")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Hora_Harsade.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Kilole.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Mountain_Yarar.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        
-        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=dkSxsSwCeRA")
-   
-        dispatcher.utter_message(attachment= "https://youtu.be/GB-UhaijKO4")
-        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        
-        
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/4_9pkdryi.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Babogaya.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/oromo_cultural_center.jpg") 
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/lake_bishoftu_Dream_Land_Resort.jpg")
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Other_Attractions_in_Bishoftu_Town.jpg")
-  
-        
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Bishoftu.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Cafe_Tuma.jpg")
-        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-  
-        
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/EUGpz_BXsAM1PQ6.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/EUGpz_BXsAM1PQ6.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/lake_dembel.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Langano_Resort_Area.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/photo_2022-03-10_16-34-33_Xp8TkQf.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Kuriftu.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Magarisa.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Mountain_Chuqala_Ziquala.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/22.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/24_CLpwGV0.webp")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/28_MSmJHAl.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/31.webp")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/34.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/27.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/23.webp")
+        dispatcher.utter_message(image="hhttps://otc.visitoromia.org/uploads/culture/26_u4kJaI5.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/26_u4kJaI5.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/32.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/23.webp")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Cafe_Tuma.jpg") 
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Oda_Nabe_ji8BqOX.jpg")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
-          
-  
-  
-  
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Other_Attractions_in_Bishoftu_Town.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Bishoftu.jpg") 
+        
+        return []
+    
+class Actiongalleryvideos(Action):
+         
+    def name(self) -> Text:
+        return "gallery_videos_action_exercise"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],) -> List[EventType]:
+        dispatcher.utter_message("wait... Loading Video")
+        dispatcher.utter_message(attachment="https://youtu.be/kBRkY5EUzZw")
+        dispatcher.utter_message(attachment="https://youtu.be/GB-UhaijKO4")
+        dispatcher.utter_message(attachment= "https://www.youtube.com/watch?v=wvQES92POPQ")
+        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=HtGAJyMfago")     
+        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=jsavm7HvGwc") 
+        dispatcher.utter_message(attachment= "https://www.youtube.com/watch?v=wvQES92POPQ")
+        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=-3Ro7Y0ORFU")            
+        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=dkSxsSwCeRA")
+        dispatcher.utter_message(attachment= "https://www.youtube.com/watch?v=mDBT7WTZemk")
+        dispatcher.utter_message(attachment= "https://www.youtube.com/watch?v=TSKIfUaohZE")
+        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=Bu8OF-Sc8Cg") 
+        dispatcher.utter_message(attachment="https://www.youtube.com/watch?v=wQS9cJjDfYU")
+        dispatcher.utter_message(attachment= "https://www.youtube.com/watch?v=IIHMlklIysc") 
+        
         return []
     
 
