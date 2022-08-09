@@ -1,12 +1,12 @@
 version: '3.1'
 services:
 
- rasa:
+  rasa:
     image: rasa-bot:latest
     working_dir: /app
     build: "./"
     restart: always
-    values:
+    volumes:
     - ./actions:./app/actions
     - ./data:./app/data
     - ./models:./app/models
@@ -16,12 +16,12 @@ services:
     networks:
     - all
 
- rasa-actions:
+  rasa-actions:
     image: rasa-bot:latest
     working_dir: /app
     build: "./"
     restart: always
-    values:
+    volumes:
     - ./actions:./app/actions
     - ./utils:/app/utils
     command: ["rasa", "run", "actions"]
