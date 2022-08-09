@@ -1,7 +1,7 @@
 name: rasa
 command: bash
 values: 
-  - /root/.cache/pip
+- ./root/.cache/pip
 sync:
 - .:/app
 forward:
