@@ -128,12 +128,9 @@ nlu:
 
 - intent: image_gallery
   examples: |
-   - what is the list oy image
    - image list
    - images
    - picture
-   - pictures
-   - photos
    - image
    - pictires of visit oromia
    - help me with photo

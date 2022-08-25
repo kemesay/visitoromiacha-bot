@@ -1,6 +1,1 @@
-python==3.10.6
-pip [options]
-setuptools==60.10.0
-wheel==0.37.1
-#Sdistribute==0.6.24
-setuptools==1.0
+python-telegram-bot==12.7

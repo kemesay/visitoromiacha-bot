@@ -15,12 +15,10 @@ from rasa_sdk.events import SlotSet, EventType
 from rasa_sdk.forms import FormValidationAction 
 # from chatdb import DataUpdate
 import webbrowser 
-# from js2py.pyjs import *
-# from translate import Translator
-# from pafy import youtube_dl
-# import pafy
-# import tmp
-# import telegram
+
+
+
+
 
 
 # from googleapiclient.discovery import build
@@ -1167,7 +1165,6 @@ class Actiongalleryimage(Action):
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Hora_Harsade.jpg") 
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/2_fLUMPXw.png") 
-
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Kilole.jpg") 
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/one.png")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Mountain_Yarar.jpg")
@@ -1180,25 +1177,33 @@ class Actiongalleryimage(Action):
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/lake_dembel.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Langano_Resort_Area.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/photo_2022-03-10_16-34-33_Xp8TkQf.jpg")
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Kuriftu.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Lake_Magarisa.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Mountain_Chuqala_Ziquala.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/22.jpg")
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/24_CLpwGV0.webp")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/28_MSmJHAl.jpg")
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/31.webp")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/34.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/27.jpg")
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/23.webp")
-        dispatcher.utter_message(image="hhttps://otc.visitoromia.org/uploads/culture/26_u4kJaI5.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/26_u4kJaI5.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/26_u4kJaI5.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/32.jpg")
-        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/culture/23.webp")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Cafe_Tuma.jpg") 
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Oda_Nabe_ji8BqOX.jpg")
         dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/svg/photo_2022-03-03_11.15.31.png")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Other_Attractions_in_Bishoftu_Town.jpg")
         dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/route_image/Bishoftu.jpg") 
+        
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/cropWabe-Shebelle-1-2000x1024.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_01-40-26.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/pjimage_2_OlJ1Cq5.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_01-43-54.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_01-43-13.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_01-58-26.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_02-00-12.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/cropWabe-Shebelle-1-2000x1024.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_01-45-16.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_01-54-33.jpg")
+        dispatcher.utter_message(image="http://otc.visitoromia.org/uploads/uploads/photo_2022-03-20_01-55-05.jpg")
+        dispatcher.utter_message(image="https://otc.visitoromia.org/uploads/activity/Pilgrimage_GabubCr.jpg")
         
         return []
     
@@ -1227,137 +1232,9 @@ class Actiongalleryvideos(Action):
     
 
    
-# class ActionDetectLanguage(Action):
-
-#     def get_lang(tracker):
-#       lang = tracker.slots['language'].title()
-#       return lang
-
-#     def get_lang_index(tracker):
-#       lang_list = ['English', 'French', 'Arabic', 'Armenian'] # Same as slot values, language is a categorical slot
-
-#       return lang_list.index(get_lang(tracker))
-
-# # dispatcher.utter_message(text = ...)
-#     def get_text_from_lang(tracker, utter_list = []):
-#        lang_index = get_lang_index(tracker)
-
-#        if not utter_list: # No text was given for any language
-#           utter_list.append('[NO TEXT DEFINED]')
-
-#        if lang_index >= len(utter_list): # No text was given for current language
-#          lang_index = 0
-
-#        return utter_list[lang_index]
-
-# # dispatcher.utter_message(template = ...)
-#     def get_template_from_lang(tracker, template):
-#         return template + '_' + get_lang(tracker)
-
-# # dispatcher.utter_message(buttons = ...)
-#     def get_buttons_from_lang(tracker, titles = [], payloads = []):
-#         lang_index = get_lang_index(tracker)
-#         buttons    = []
-
-#         if lang_index >= len(payloads): # No text was given for current language
-#            lang_index = 0
-    
-#         for i in range(min(len(titles[lang_index]), len(payloads))): # Build each button
-#             buttons.append({'title': titles[lang_index][i], 'payload': payloads[i]})
-
-#         return buttons
-    
-#     text = get_text_from_lang( tracker,['Choose a language:','Choisissez une langue:',':اختر لغة','Ընտրեք լեզու ՝'])
-
-#     buttons = [
-#     {
-#     'title': 'English',  'payload': '/set_language{"language": "English"}'},
-#     {
-#     'title': 'Français', 'payload': '/set_language{"language": "French"}'},
-#     {
-#     'title': 'عربي',     'payload': '/set_language{"language": "Arabic"}'},
-#     {
-#     'title': 'հայերեն',  'payload': '/set_language{"language": "Armenian"}'}]
-       
-#     dispatcher.utter_message(text = text, buttons = buttons)
-    
-#     template = get_template_from_lang(tracker, 'utter_ask_service_type')
-#     buttons  = get_buttons_from_lang(tracker, [['Wireless', 'Internet', 'DSL Internet', 'CableVision TV'],
-#                                                 ['Sans Fil', 'Internet', 'Internet DSL', 'CableVision TV'],
-#                                                 ['لاسلكي','إنترنت','DSL إنترنت','تلفزيون الكابل'],
-#                                                 ['Անլար', 'Ինտերնետ', 'DSL ինտերնետ', 'CableVision TV']],['/inform_service_type{"service_type": "wireless"}',
-#                                                                                                           '/inform_service_type{"service_type": "internet"}',
-#                                                                                                           '/inform_service_type{"service_type": "dsl"}',
-#                                                                                                           '/inform_service_type{"service_type": "cablevision"}'])
-
-# dispatcher.utter_message(template = template, buttons = buttons)
-
-   
 
 
 
-
-#     def run(
-#         self,
-#         dispatcher: CollectingDispatcher,
-#         tracker: Tracker,
-#         domain: Dict[Text, Any],
-#     ) -> List[Dict[Text, Any]]:
-
-#         text = tracker.latest_message.get("text")
-
-#         langcode = TextBlob(text).detect_language()
-
-#         langname = languages.get(alpha2=langcode).name
-#         langname = langname if "(" not in langname else langname.split(" ")[0]
-
-#         return [SlotSet("langcode", langcode), SlotSet("langname", langname)]
-
-
-
-###################################################################################################
-
-# from argparse import Action
-# from asyncore import dispatcher
-# from os import link
-# from typing import Text, List, Any, Dict
-# from typing_extensions import Self
-# from matplotlib.pyplot import text
-
-# from rasa_sdk import Tracker, FormValidationAction
-# from rasa_sdk.executor import CollectingDispatcher
-# from rasa_sdk.types import DomainDict
-
-# class ActionHelloOromia(Action):
-#     def name(Self)-> Text:
-#         return " Hello Oromia"
-# #     def run (self, dispatcher:CollectingDispatcher, 
-# #              tracker:Tracker,domaain:Dict[Text, Any])  ->List[Dict[Text, Any]]:
-# #              Link= "http:/www.oromiatourismcommission.et/"
-# #              dispatcher.utter_responses("utter_location_request", tracker, link= Link)
-                      
-# #              return[]
-# ####################################################################################################
-# #                     Strore and Fetch Data from the data base                                      #
-# #                                                                                                   #
-# #####################################################################################################
-
-# # This files contains your custom actions which can be used to run
-# # custom Python code.
-# #
-# # See this guide on how to implement these action:
-# # https://rasa.com/docs/rasa/core/actions/#custom-actions/
-# # This is a simple example for a custom action which utters "Hello World!"
-
-# from typing import Any, Text, Dict, List, Union
-
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.events import EventType
-# from rasa_sdk.executor import CollectingDispatcher
-# from rasa_sdk.forms import FormAction
-
-# from store_data import DataStore, FetchData
-# from store_data import FetchData
 
 
 # class ActionSaveData(Action):
@@ -1430,62 +1307,3 @@ class Actiongalleryvideos(Action):
 
 # from excel_data_store_read import DataStore, FetchData
 
-
-# class ActionSaveData(Action):
-
-#     def name(self) -> Text:
-#         return "action_save_data"
-
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#         DataStore(tracker.get_slot("name"),
-#             tracker.get_slot("number"),
-#             tracker.get_slot("email"),
-#             tracker.get_slot("occupation"))
-#         dispatcher.utter_message(text="Data Stored Successfully.")
-
-#         return []
-
-# class ActionFetchData(Action):
-
-#     def name(self) -> Text:
-#         return "action_fetch_data"
-
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#         output=FetchData(tracker.latest_message['entities'][0]['value'],
-#                          tracker.latest_message['entities'][1]['value'])
-#         dispatcher.utter_message(text="This is the data that you asked for, \n{}".format(",".join(output)))
-
-#         return []
-
-# class FormDataCollect(FormAction):
-#     def name(self) -> Text:
-#         return "Form_Info"
-
-#     @staticmethod
-#     def required_slots(tracker: "Tracker") -> List[Text]:
-#         return ["name","number","email","occupation"]
-
-#     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict[Text, Any]]]]:
-#         return {
-#             "name":[self.from_text()],
-#             "number":[self.from_entity(entity="number")],
-#             "email":[self.from_entity(entity="email")],
-#             "occupation":[self.from_text()]
-#         }
-
-#     def submit(
-#         self,
-#         dispatcher: "CollectingDispatcher",
-#         tracker: "Tracker",
-#         domain: Dict[Text, Any],
-#     ) -> List[EventType]:
-
-#         dispatcher.utter_message("Here are the information that you provided. Do you want to save it?\nName: {0},\nMobile Number: {1},\nEmail: {2},\nOccupation: {3}".format(
-#             tracker.get_slot("name"), tracker.get_slot("number"), tracker.get_slot("email"), tracker.get_slot("occupation"),
-
-#         ))
-#         return []
